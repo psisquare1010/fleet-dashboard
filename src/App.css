@@ -169,8 +169,8 @@
 }
 
 .status-badge--good {
-  color: var(--status-good);
-  background: color-mix(in srgb, var(--status-good) 14%, transparent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
 }
 
 .status-badge--warning {
