@@ -5,7 +5,8 @@
 export const trucks = [
   {
     id: 'T-1042',
-    name: 'Peterbilt 579',
+    brand: 'Peterbilt',
+    model: '579',
     status: 'active',
     driver: 'J. Alvarez',
     location: 'Denver, CO',
@@ -17,7 +18,8 @@ export const trucks = [
   },
   {
     id: 'T-1077',
-    name: 'Kenworth T680',
+    brand: 'Kenworth',
+    model: 'T680',
     status: 'maintenance',
     driver: 'M. Chen',
     location: 'Fort Worth, TX',
@@ -29,7 +31,8 @@ export const trucks = [
   },
   {
     id: 'T-1103',
-    name: 'Freightliner Cascadia',
+    brand: 'Freightliner',
+    model: 'Cascadia',
     status: 'active',
     driver: 'R. Okafor',
     location: 'Portland, OR',
@@ -41,7 +44,8 @@ export const trucks = [
   },
   {
     id: 'T-1156',
-    name: 'Volvo VNL 860',
+    brand: 'Volvo',
+    model: 'VNL 860',
     status: 'idle',
     driver: 'Unassigned',
     location: 'Kansas City, MO',
@@ -53,7 +57,8 @@ export const trucks = [
   },
   {
     id: 'T-1210',
-    name: 'Peterbilt 389',
+    brand: 'Peterbilt',
+    model: '389',
     status: 'active',
     driver: 'S. Patel',
     location: 'Phoenix, AZ',
@@ -65,7 +70,8 @@ export const trucks = [
   },
   {
     id: 'T-1288',
-    name: 'Kenworth W900',
+    brand: 'Kenworth',
+    model: 'W900',
     status: 'maintenance',
     driver: 'D. Wallace',
     location: 'Laredo, TX',

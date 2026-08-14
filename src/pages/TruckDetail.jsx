@@ -3,6 +3,7 @@ import { getTruckById } from '../data/trucks'
 import StatusBadge from '../components/StatusBadge'
 import StatTile from '../components/StatTile'
 import InfoRow from '../components/InfoRow'
+import TruckName from '../components/TruckName'
 
 export default function TruckDetail() {
   const { id } = useParams()
@@ -22,7 +23,9 @@ export default function TruckDetail() {
       <Link to="/" className="back-link">&larr; Back to fleet</Link>
 
       <div className="page__title-row">
-        <h1 className="page__title">{truck.name}</h1>
+        <h1 className="page__title">
+          <TruckName brand={truck.brand} model={truck.model} />
+        </h1>
         <StatusBadge status={truck.status} />
       </div>
       <p className="page__subtitle">{truck.id}</p>

@@ -150,6 +150,14 @@
   margin-bottom: 6px;
 }
 
+.truck-name__brand {
+  color: var(--truck-brand-color);
+}
+
+.truck-name__model {
+  color: var(--truck-model-color);
+}
+
 .truck-card__meta {
   display: flex;
   gap: 6px;

@@ -15,6 +15,9 @@
 
   --accent: #2a78d6; /* primary brand/accent (sequential-hue blue) */
 
+  --truck-brand-color: #0ca30c; /* truck name: manufacturer, e.g. "Peterbilt" */
+  --truck-model-color: #d03b3b; /* truck name: model, e.g. "579" */
+
   --status-good: #0ca30c;
   --status-warning: #fab219;
   --status-serious: #ec835a;
@@ -37,6 +40,9 @@
     --gridline: #2c2c2a;
 
     --accent: #3987e5;
+
+    --truck-brand-color: #0ca30c;
+    --truck-model-color: #e66767;
 
     --status-good: #0ca30c;
     --status-warning: #fab219;
